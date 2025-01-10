@@ -1,0 +1,20 @@
+version: "3.4"
+
+services:
+  app:
+    image: ghcr.io/hargata/lubelogger:latest
+    build: .
+    restart: unless-stopped
+    # volumes used to keep data persistent
+    volumes:
+      - /home/media-backup/docker/lubelog/config:/App/config
+      - /home/media-backup/docker/lubelog/data:/App/data
+      - /home/media-backup/docker/lubelog/translations:/App/wwwroot/translations
+      - /home/media-backup/docker/lubelog/documents:/App/wwwroot/documents
+      - /home/media-backup/docker/lubelog/images:/App/wwwroot/images
+      - /home/media-backup/docker/lubelog/temp:/App/wwwroot/temp
+      - /home/media-backup/docker/lubelog/log:/App/log
+      - /home/media-backup/docker/lubelog/keys:/root/.aspnet/DataProtection-Keys
+    # expose port and/or use serving via traefik
+    ports:
+      - 8280:8080
