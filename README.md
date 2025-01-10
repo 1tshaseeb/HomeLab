@@ -9,7 +9,7 @@ Home Network Layout
 🖥️ Home Server Specifications
 
   Model: HP Z620 Workstation\
-   CPU: Dual Intel® Xeon® E5-2670 (16 cores, 32 threads)\
+   CPU: Dual Intel® Xeon® E5-2670 (8 cores, 16 threads)\
    RAM: 32 GB DDR3 ECC\
    GPU: NVIDIA Quadro NVS 450\
    NIC: Dual Intel® X540-AT2 10GbE Ports\
