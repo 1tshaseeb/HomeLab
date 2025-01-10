@@ -2,18 +2,17 @@ Welcome to my GitHub.
 
 I am a self-hosting enthusiast who is particularly interested in server management, networking, and system optimization. My work focuses on:
 
-Designing and administering efficient, privacy-focused systems.
-Investigating novel solutions for server and network configuration. 
-Continuously acquiring and using practical technical skills.
+Home Network Layout
 
-Key areas of interest.
+![Internet](https://github.com/user-attachments/assets/b5faf5af-d7b2-439c-a1fe-b5236896ac09)
 
-Server management entails designing and maintaining systems that favor dependability and control.
-Networking: Streamlining networks to improve performance and security.
-Self-hosting: Using private, self-sufficient solutions to reduce reliance on third-party services.
+Home Server Specifications 
+HP Z620
+CPU: Intel Xeon 2670
+Ram: 32 Gigs
+GPU: Nvidia Quadro NVS 450
+NIC: Intel X540-AT2 x2
+Storage: 128 Gigs SSD, 2 TB HDD
 
-What To Expect
 
-You'll find personal projects, tools, and resources that reflect my experience with server management and system architecture. I want to share my work and learn from the larger IT community.
 
-Thank you for visiting my GitHub. Let's work together and invent!
